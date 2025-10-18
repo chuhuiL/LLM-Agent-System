@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find /mnt/d/Leo/workspace/app/LLM_Agent -type f ( -name \"*.py\" -o -name \"*.java\" -o -name \"*.js\" -o -name \"*.ts\" ))",
+      "Bash(find /mnt/d/Leo/workspace/app/LLM_Agent/clinical_visit_note_summarization_corpus-main -type f ( -name \"*.py\" -o -name \"*.java\" -o -name \"*.js\" ))"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
