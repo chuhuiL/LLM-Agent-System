@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/LLM-Agent-System.iml" filepath="$PROJECT_DIR$/.idea/LLM-Agent-System.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Sound_Agent/.idea/Sound_Agent.iml" filepath="$PROJECT_DIR$/../Sound_Agent/.idea/Sound_Agent.iml" />
     </modules>
   </component>
 </project>

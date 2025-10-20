@@ -1,0 +1,26 @@
+{
+  "default_weather": {
+    "template": "\ud83c\udf24\ufe0f Weather Report for {location}, {country}\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83c\udf21\ufe0f Temperature: {temperature}\u00b0F (feels like {feels_like}\u00b0F)\n\u2601\ufe0f Conditions: {conditions}\n\ud83d\udca7 Humidity: {humidity}%\n\ud83d\udca8 Wind Speed: {wind_speed} mph\n\ud83c\udf27\ufe0f Precipitation: {precipitation} mm\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+    "description": "Default weather report format"
+  },
+  "weather_simple": {
+    "template": "{location} is {temperature}\u00b0F with {conditions}",
+    "description": "Simple one-line weather format"
+  },
+  "weather_detailed": {
+    "template": "Weather Analysis for {location}, {country}\nTemperature: {temperature}\u00b0F (Feels like: {feels_like}\u00b0F)\nCurrent Conditions: {conditions}\nAtmospheric Humidity: {humidity}%\nWind Velocity: {wind_speed} mph\nPrecipitation Level: {precipitation} mm",
+    "description": "Detailed weather analysis format"
+  },
+  "daily_weather_forecast": {
+    "template": "Daily Weather Forecast Report\n{location}, {country}\n{conditions} with a temperature of {temperature}\u00b0F, feels like {feels_like}\u00b0F.\nHumidity: {humidity}%, Wind Speed: {wind_speed} mph, Precipitation: {precipitation} mm.",
+    "description": "Daily weather forecast format"
+  },
+  "T1": {
+    "template": "Template 1: Daily Weather Forecast Report\nDaily Weather Forecast for [Date]\nLocation: [City/Region]\nCurrent Conditions:\n\nTemperature: [\u00b0F/\u00b0C]\nConditions: [Sunny/Cloudy/Rainy, etc.]\nWind: [Speed] mph, [Direction]\nHumidity: [Percentage]\nVisibility: [Distance]\n\nToday's Forecast:\n\nHigh: [Temperature]\nLow: [Temperature]\nConditions: [Description]\nPrecipitation Chance: [Percentage]\nWind: [Speed] mph\n\nTonight's Forecast:\n\nLow: [Temperature]\nConditions: [Description]\nWind: [Speed] mph\n\nExtended Forecast (Next 7 Days):\n[Day]: [High/Low], [Conditions], [Precipitation]\nWeather Alerts: [If applicable, list any warnings or advisories]",
+    "description": ""
+  },
+  "T2": {
+    "template": "Template 2: Severe Weather Report\nSEVERE WEATHER ALERT\nIssued: [Date and Time]\nEffective Until: [Date and Time]\nLocation Affected: [Geographic area]\nAlert Type: [Tornado Warning/Severe Thunderstorm/Winter Storm, etc.]\nDescription:\n[Detailed description of the weather event]\nImpacts:\n\nWind speeds: [Speed]\nHail size: [Size, if applicable]\nSnow accumulation: [Amount, if applicable]\nOther hazards: [List any]\n\nRecommended Actions:\n\n[Safety recommendation 1]\n[Safety recommendation 2]\n[Safety recommendation 3]\n\nAdditional Information:\n[Any relevant details for residents]",
+    "description": ""
+  }
+}

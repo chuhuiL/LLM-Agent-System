@@ -1,0 +1,73 @@
+MEDICAL NOTE - SOAP FORMAT
+═══════════════════════════════════════════════════════════════════
+
+Date: {date}
+Provider: {provider}
+Patient ID: {patient_id}
+Encounter Type: {encounter_type}
+
+SUBJECTIVE:
+───────────────────────────────────────────────────────────────────
+Chief Complaint: {chief_complaint}
+
+History of Present Illness:
+{history_present_illness}
+
+Medications:
+{medications}
+
+Allergies:
+{allergies}
+
+Past Medical History:
+{past_medical_history}
+
+OBJECTIVE:
+───────────────────────────────────────────────────────────────────
+Vital Signs:
+  BP: {blood_pressure}
+  HR: {heart_rate} bpm
+  RR: {respiratory_rate} breaths/min
+  Temp: {temperature}
+  SpO2: {oxygen_saturation}%
+
+Physical Examination:
+{physical_exam}
+
+Laboratory Results:
+{laboratory_results}
+
+ASSESSMENT:
+───────────────────────────────────────────────────────────────────
+Primary Diagnosis: {primary_diagnosis}
+ICD-10 Codes: {icd_codes}
+
+Differential Diagnoses:
+{differential_diagnoses}
+
+Clinical Impression:
+{clinical_impression}
+
+PLAN:
+───────────────────────────────────────────────────────────────────
+Medications:
+{plan_medications}
+
+Diagnostic Tests:
+{diagnostic_tests}
+
+Procedures:
+{procedures}
+
+Referrals:
+{referrals}
+
+Patient Education:
+{patient_education}
+
+Follow-up: {follow_up}
+Disposition: {disposition}
+
+═══════════════════════════════════════════════════════════════════
+Note generated: {generated_timestamp}
+═══════════════════════════════════════════════════════════════════
